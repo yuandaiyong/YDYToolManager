@@ -1,0 +1,11 @@
+framework module YDYToolManager {
+  umbrella header "YDYToolManager.h"
+
+  export *
+  module * { export * }
+}
+
+module YDYToolManager.Swift {
+    header "YDYToolManager-Swift.h"
+    requires objc
+}
